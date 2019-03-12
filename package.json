@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node server/server.js",
     "start:dev": "./node_modules/webpack/bin/webpack.js --watch --mode=development & DATABASE_URL=postgres://localhost/acme_fav_spa nodemon ./server/server.js --ignore src/ --ignore dist/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
